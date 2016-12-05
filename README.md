@@ -21,11 +21,11 @@ Perfil Administrador
 
 Perfil de Visitante
 + login: visitante
-+ senha: visitante123.
++ senha: visitante123
 
 ### Acessando com cURL
 
-A forma mais simples de testar é usar a linha de comando com cURL.
+A forma mais simples de testar é usar a linha de comando com cURL, simulando um aplicativo ou um AJAX qualquer (seja JQuery ou Angular).
 
 Para logar com o exemplo do usuario admin:
 
