@@ -13,13 +13,15 @@ Para subir o projeto:
 + Crie um banco de dados Postgres local na porta padrão: bd_exemplo_oauth
 + Voce pode mudar o banco, local e senha no arquivo "environment_DESENVOLVIMENTO.properties"
 
-Pode-se testar com os usuarios abaixo:
+Pode-se testar com os usuarios abaixo.
 
-login: admin
-senha: admin123
+Perfil Administrador
++ login: admin
++ senha: admin123
 
-login: visitante
-senha: visitante123.
+Perfil de Visitante
++ login: visitante
++ senha: visitante123.
 
 ### Acessando com cURL
 
