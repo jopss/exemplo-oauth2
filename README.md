@@ -33,11 +33,11 @@ Para logar com o exemplo do usuario admin:
 curl -X POST -H "Accept: application/json" -d "client_id=exemploaplicativocliente&client_secret=9834ba657bb2c60b5bb53de6f4201905&grant_type=password&username=admin&password=admin123" http://localhost:8080/exemplo-oauth2/endpoints/seguranca/logar
 ```
 
-Mude a propriedade "username" e "password" para acesso com o outro usuario. Esse comendo irá retornar um JSON contendo o Token de acesso aos recursos.
+Mude a propriedade "username" e "password" para acesso com o outro usuario. Esse comando irá retornar um JSON contendo o Token de acesso aos recursos, que você deverá usá-lo nas demais chamadas.
 
 ### Teste de acessos a recursos
 
-Mude a palavra TOKEN com o valor retornado apos logado.
+Mude a palavra TOKEN dos comandos com o valor retornado após a chamada ao "logar" acima.
 
 Retorno do usuário atual:
 ```
